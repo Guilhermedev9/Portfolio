@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth; 
+}
+ 
+body{
+    background-color: rgb(31, 29, 29);
+}
+.main-header{
+    display: flex;
+   align-items: center;
+  margin-top: 990px;
+  height: 500px;
+}
+.logo{
+    width: 95px;
+  margin-left: 150px;
+}
+a{   
+    text-decoration: none;
+    color: white;
+}
+ul{
+    display: flex;
+    gap: 100px;
+  list-style: none;
+ margin-left: 400px;
+ color: rgb(255, 255, 255);
+ font-size: 18px;
+ margin-left: 820px;
+ 
+}  
+  nav li{
+        position: relative;
+    }
+    nav li::after{
+        content: "  ";
+        width: 0%;
+        height: 1px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transition: 0.7s ease-in-out;
+    }
+    nav li:hover::after{
+        width: 100%;
+    }
+
+.ctn-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   margin-top: 80px;
+   
+}
+
+.ctn-second{
+margin-top: 22px;
+margin-left: 380px;   
+}
+
+.text-main-2{
+    color: #1cbf19;
+    font-size: 80px;
+    margin-left: 20px;
+    box-shadow: rgb(255, 255, 255);
+}
+.prgfo{
+    font-size: 20px;
+}
+h2{
+    color: white;
+    font-size: 34px;
+}
+
+.circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1cbf19;
+    clip-path: circle(39% at bottom right);
+}
+
+body,html{margin:0;padding:0;height:100%;}
+body{
+  background-size:cover;
+  font-family: 'Cabin Condensed', sans-serif;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+svg{font-weight:bold;max-width:600px;height:auto;
+}
+
+.p2{
+    width: 591px;
+    color: white;
+   font-size: 20px;
+}
+
+.text-main{
+    font-size: 20px;
+}
+#box-sobre{ 
+    margin-top: 700px;  
+    
+}
+.title-sobre{
+    color: #fc4508;
+    font-size: 40px;
+    margin-bottom: 10px;
+   display: flex;
+   justify-content: center; 
+}
+.text-sobre{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    width: 560px;
+    display: flex;
+    justify-content: center;
+}
+.typing{
+   color:#fc4508;
+   font-size: 23px;
+   display: flex;
+   justify-content: center;
+}
+.card-container{
+    max-width: 1220px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 48px;
+    margin-top: 150px;
+  }
+  .card{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-left: 15%;
+    border-radius: 15px;
+  }
+
+  
+  .card:hover::before {
+    transform: translateY(0%);
+  }
+.title-proj{
+    color:#fc4508;
+    display: flex;
+ 
+}
